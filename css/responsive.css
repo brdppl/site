@@ -1,0 +1,43 @@
+@media only screen and (max-width: 767px) {
+	img {
+		width: 50%;
+	}
+
+    .sinopse {
+    	margin-top: 20px;
+    }
+
+    .contact-section hr {
+        width: 50%;
+    }
+
+    .social-link li a {
+    	width: 60px;
+		height: 60px;
+		font-size: 32px;
+    }
+
+    .social-link li a i {
+		padding-top: 15px;
+	}
+
+    .facebook {
+        margin-right: 20px;
+    }
+
+	.intro-section {
+        padding-bottom: 10%;
+	}
+
+    .contact-section #tel {
+        font-size: 20px;
+    }
+
+    .contact-section #cel {
+        font-size: 18px;
+    }
+
+    .contact-section #email {
+        font-size: 14px;
+    }
+}
