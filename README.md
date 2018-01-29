@@ -1,3 +1,3 @@
 # https://brdppl.github.io/site/
 
-It's my personal website.
+This is my personal website.
