@@ -37,7 +37,7 @@ $(document).ready(function() {
         var diff = d2.getTime() - d1.getTime();
         return Math.floor(diff / (1000 * 60 * 60 * 24 * 365.25));
     }
-    var idade = getAge(new Date(1996, 8, 21))
+    var idade = getAge(new Date(1996, 5, 21))
     // document.getElementById('idade').innerHTML = idade;
     $('#idade').html(idade);
 });
