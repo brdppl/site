@@ -1,0 +1,50 @@
+[
+    {
+        "idJob": 1,
+        "title": "Móveis Novak",
+        "img": "img/novak.png",
+        "url": "moveisnovak",
+        "technologies": [
+            {
+                "tech": "HTML5",
+                "icon": "fab fa-html5"
+            },
+            {
+                "tech": "AngularJS",
+                "icon": "fab fa-angular"
+            },
+            {
+                "tech": "Sass",
+                "icon": "fab fa-sass"
+            },
+            {
+                "tech": "gulp.js",
+                "icon": "fab fa-gulp"
+            }
+        ]
+    },
+    {
+        "idJob": 2,
+        "title": "Dout Design",
+        "img": "img/dout.png",
+        "url": "doutdesign",
+        "technologies": [
+            {
+                "tech": "HTML5",
+                "icon": "fab fa-html5"
+            },
+            {
+                "tech": "AngularJS",
+                "icon": "fab fa-angular"
+            },
+            {
+                "tech": "Sass",
+                "icon": "fab fa-sass"
+            },
+            {
+                "tech": "gulp.js",
+                "icon": "fab fa-gulp"
+            }
+        ]
+    }
+]
