@@ -191,3 +191,19 @@ $black: 900;
         }
     }
 }
+
+
+
+@media only screen and (max-height: 768px) {
+    // About
+    .about {
+        .info {
+            .picture {
+                .box-img {
+                    width: 225px;
+                    height: 225px;
+                }
+            }
+        }
+    }
+}
