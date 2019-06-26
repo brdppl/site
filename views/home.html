@@ -129,7 +129,10 @@
                             <textarea class="form-control" rows="6" ng-model="vm.dados.mensagem" placeholder="Mensagem*" required></textarea>
                         </div>
                         <div class="col-12 wow fadeInRight" data-wow-delay="1.1s">
-                            <button type="submit" class="btn btn-send btn-block-xs float-right">Enviar</button>
+                            <button type="submit" class="btn btn-send btn-block-xs float-right">
+                                <span ng-if="!vm.isLoading">Enviar</span>
+                                <span ng-if="vm.isLoading" class="spinner-border spinner-border-sm"></span>
+                            </button>
                         </div>
                     </div>
                 </form>

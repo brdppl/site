@@ -6,5 +6,6 @@ const app = angular.module('myApp', [
     'ngTouch',
     'duScroll',
     'duParallax',
-    'angularLazyImg'
+    'angularLazyImg',
+    'toaster'
 ])

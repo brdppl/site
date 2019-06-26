@@ -8,5 +8,6 @@
     app.constant("config", {
         jobsConst: base+'jobs.json',
         contactsConst: base+'contacts.json',
+        emailConst: 'https://brdppl.herokuapp.com/send-mail'
     })
 })()
