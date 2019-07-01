@@ -1,5 +1,5 @@
 <!-- Entrance -->
-<div id="home" class="entrance">
+<section id="home" class="entrance">
     <div class="parallax">
         <img src="img/entrance-bg.jpg" du-parallax y="vm.background">
         <div class="overlay"></div>
@@ -14,13 +14,13 @@
     <a href="" class="scroll-down" ng-click="vm.scrollDown('about')">
         <i class="fas fa-chevron-down"></i>
     </a>
-</div>
+</section>
 
 <!-- Header -->
 <div ng-include="'views/includes/header.html'" ng-controller="headerCtrl as vm"></div>
 
 <!-- About -->
-<div id="about" class="about flex-container">
+<section id="about" class="about flex-container">
     <div class="container">
         <div class="row">
             <div class="col-12 mb-50">
@@ -81,10 +81,10 @@
             </div>
         </div>
     </div>
-</div>
+</section>
 
 <!-- Jobs -->
-<div id="jobs" class="jobs flex-container">
+<section id="jobs" class="jobs flex-container">
     <div class="container">
         <h1 class="title-bar wow fadeInDown" data-wow-delay="0.5s">Meus trabalhos</h1>
         <div class="jobs-container mt-50">
@@ -92,7 +92,7 @@
                 ng-class="{'flex-1': vm.jobs.length <= 1, 'flex-2': vm.jobs.length === 2, 'flex-3': vm.jobs.length > 2}">
                 <a href="https://brdppl.github.io/{{x.url}}" target="_blank">
                     <div class="img-box">
-                        <img ng-src="{{x.img}}">
+                        <img ng-src="{{x.img}}" alt="{{x.title}}">
                         <div class="img-overlay">
                             <p>{{x.title}}</p>
                             <ul class="list-unstyled list-techs">
@@ -104,10 +104,10 @@
             </div>
         </div>
     </div>
-</div>
+</section>
 
 <!-- Contact -->
-<div id="contact" class="contact flex-container">
+<section id="contact" class="contact flex-container">
     <div class="container">
         <h1 class="title-bar wow fadeInDown mb-75" data-wow-delay="0.5s">Contato</h1>
 
@@ -123,7 +123,7 @@
                             <input type="email" class="form-control" ng-model="vm.dados.email" placeholder="Email*" required>
                         </div>
                         <div class="col-12 mb-15 wow fadeInLeft" data-wow-delay="0.9s">
-                            <input type="text" class="form-control" ng-model="vm.dados.telefone" placeholder="Telefone">
+                            <input type="text" class="form-control" ng-model="vm.dados.telefone" placeholder="Telefone" ui-mask="(99) 9?9999-9999" ui-mask-placeholder>
                         </div>
                         <div class="col-12 mb-15 wow fadeInLeft" data-wow-delay="1s">
                             <textarea class="form-control" rows="6" ng-model="vm.dados.mensagem" placeholder="Mensagem*" required></textarea>
@@ -182,7 +182,7 @@
             </div>
         </div>
     </div>
-</div>
+</section>
 
 <!-- Footer -->
 <div ng-include="'views/includes/footer.html'" ng-cloak></div>

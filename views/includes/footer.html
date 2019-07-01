@@ -1,7 +1,7 @@
-<footer>
+<footer ng-controller="footerCtrl as vm">
     <p class="copyright">
         <a href="https://github.com/brdppl" target="_blank">
-            Feito com <i class="fas fa-heart"></i> por <span>Bernardo Sampaio</span>
+            {{vm.currentYear}} &copy; Feito com <i class="fas fa-heart"></i> por <span>Bernardo Sampaio</span>
         </a>
     </p>
 </footer>
