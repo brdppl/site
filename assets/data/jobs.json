@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "title": "LG Desentupidora",
+        "img": "assets/img/lgdesentupidora1.jpg",
+        "url": "http://lgdesentupidora.com.br",
+        "technologies": [
+            {
+                "tech": "HTML5"
+            },
+            {
+                "tech": "Angular"
+            },
+            {
+                "tech": "Sass"
+            },
+            {
+                "tech": "node.js"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Móveis Novak",
+        "img": "assets/img/novak.png",
+        "url": "https://brdppl.github.io/moveisnovak",
+        "technologies": [
+            {
+                "tech": "HTML5"
+            },
+            {
+                "tech": "AngularJS"
+            },
+            {
+                "tech": "Sass"
+            },
+            {
+                "tech": "gulp.js"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Dout Design",
+        "img": "assets/img/dout.png",
+        "url": "https://brdppl.github.io/doutdesign",
+        "technologies": [
+            {
+                "tech": "HTML5"
+            },
+            {
+                "tech": "AngularJS"
+            },
+            {
+                "tech": "Sass"
+            },
+            {
+                "tech": "gulp.js"
+            }
+        ]
+    }
+]
