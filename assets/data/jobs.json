@@ -3,7 +3,7 @@
         "id": 1,
         "title": "LG Desentupidora",
         "img": "assets/img/lgdesentupidora1.jpg",
-        "url": "http://lgdesentupidora.com.br",
+        "url": "https://lgdesentupidora.com.br/",
         "technologies": [
             {
                 "tech": "HTML5"
@@ -21,9 +21,9 @@
     },
     {
         "id": 2,
-        "title": "Móveis Novak",
-        "img": "assets/img/novak.png",
-        "url": "https://brdppl.github.io/moveisnovak",
+        "title": "Forentec",
+        "img": "assets/img/forentec.jpg",
+        "url": "https://forentec.com.br/",
         "technologies": [
             {
                 "tech": "HTML5"
@@ -35,15 +35,15 @@
                 "tech": "Sass"
             },
             {
-                "tech": "gulp.js"
+                "tech": "node.js"
             }
         ]
     },
     {
         "id": 3,
-        "title": "Dout Design",
-        "img": "assets/img/dout.png",
-        "url": "https://brdppl.github.io/doutdesign",
+        "title": "Alô Gravataí",
+        "img": "assets/img/alogravatai.jpg",
+        "url": "https://alogravatai.com.br/",
         "technologies": [
             {
                 "tech": "HTML5"
@@ -55,7 +55,7 @@
                 "tech": "Sass"
             },
             {
-                "tech": "gulp.js"
+                "tech": "node.js"
             }
         ]
     }
